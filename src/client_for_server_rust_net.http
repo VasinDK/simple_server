@@ -1,0 +1,9 @@
+GET http://127.0.0.1:7878/sleep
+Accept: application/json
+###
+
+POST http://127.0.0.1:7878/test
+Content-Type: application/json
+
+{"HELLO":"world"}
+###
